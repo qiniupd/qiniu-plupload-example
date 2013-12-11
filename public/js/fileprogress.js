@@ -42,7 +42,7 @@ function FileProgress(file, targetID) {
         if (file.size === undefined || file.size > _500MB) {
             fileSize = ">500 MB";
         } else {
-            var size = Q.format(file.size, Q.storageHex, Q.storageUnits, 2);
+            var size = Local.format(file.size, Local.storageHex, Local.storageUnits, 2);
             fileSize = size.base + " " + size.unit;
         }
         var progressSize = document.createElement("div");
@@ -104,8 +104,8 @@ FileProgress.prototype.setProgress = function(percentage, speed) {
     this.fileProgressElement.className = "progressContainer green";
     this.fileProgressElement.childNodes[3].className = "progressBarInProgress";
     this.fileProgressElement.childNodes[3].style.width = percentage;
-    var size = Q.format(this.file.loaded, Q.storageHex, Q.storageUnits, 2);
-    speed = Q.format(speed, Q.storageHex, Q.storageUnits, 2);
+    var size = Local.format(this.file.loaded, Local.storageHex, Local.storageUnits, 2);
+    speed = Local.format(speed, Local.storageHex, Local.storageUnits, 2);
     this.fileProgressElement.childNodes[2].className = "progressBarStatus";
     this.fileProgressElement.childNodes[2].innerHTML = "已上传: " + size.base + size.unit + " 上传速度： " + speed.base + speed.unit + "/s";
 
