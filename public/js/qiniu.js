@@ -1,4 +1,3 @@
-$(function() {
     var Local = window.Local || {};
 
     Local.storageUnits = ['B', 'KB', 'MB', 'GB', 'TB'];
@@ -55,9 +54,9 @@ $(function() {
         browse_button: 'pickfiles',
         container: 'container',
         max_file_size: '40mb',
-        url: 'https://up.qiniu.com',
-        flash_swf_url: 'plupload/Moxie.swf',
-        silverlight_xap_url: 'plupload/Moxie.xap',
+        url: 'http://up.qiniu.com',
+        flash_swf_url: 'js/plupload/Moxie.swf',
+        silverlight_xap_url: 'js/plupload/Moxie.xap',
         multipart_params: {
             "token": 'MX-bE11GUuO8WUqfv1kt69hNiJ2BeI3xeKYnZqMl:nyM055VliIdALnCy9vHhHsxnbyk=:eyJzY29wZSI6InFpbml1LXBsdXBsb2FkLWV4YW1wbGUiLCJkZWFkbGluZSI6MzkwOTYyNTkzN30='
         }
@@ -172,4 +171,3 @@ $(function() {
         uploader.destroy();
         model.manualCancel(true);
     };
-});
