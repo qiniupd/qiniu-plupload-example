@@ -3,7 +3,7 @@
 ======================
 
 
-一个基于 [七牛云存储](http://www.qiniu.com/) 及[Plupload](http://plupload.com/) 开发的上传Demo。
+一个基于 [七牛云存储](http://www.qiniu.com/) 及[Plupload](http://www.plupload.com/) 开发的上传Demo。
 示例网站：[七牛Plupload上传Demo](http://plupload-demo.u.qiniudn.com/)
 
 ##依赖
@@ -25,5 +25,6 @@
 
 1. 本示例仅为了简单演示如何使用Plupload上传文件至七牛，并未引入服务端程序，所以在前端初始化了token值。实际生产环境中，token参数的构建应由服务端完成。
 
-2. 如果您想了解更多七牛的上传策略，建议您仔细阅读七牛的官方文档
-- [七牛官方文档-资源上传](http://docs.qiniu.com/api/v6/put.html#uploadToken)
+2. 如果您想了解更多七牛的上传策略，建议您仔细阅读七牛的官方文档 - [七牛官方文档-资源上传](http://docs.qiniu.com/api/v6/put.html#uploadToken)
+
+3. 通过[七牛Plupload上传Demo](http://plupload-demo.u.qiniudn.com/)上传文件后，可以通过访问  'http://qiniu-plupload-example.u.qiniudn.com/' + 文件名 获取上传的资源
