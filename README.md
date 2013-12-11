@@ -1,16 +1,16 @@
-qiniu-plupload-example
+七牛Plupload上传Demo
 
 ======================
 
 
-一个基于 [七牛云存储](http://www.qiniu.com/) [Plupload](http://plupload.com/) 开发的上传Demo。
+一个基于 [七牛云存储](http://www.qiniu.com/) 及[Plupload](http://plupload.com/) 开发的上传Demo。
 示例网站：[七牛Plupload上传Demo](http://plupload-demo.u.qiniudn.com/)
 
 ##依赖
 
 1、Plupload 2.0.0 
 
-2、jQuery插件
+2、jQuery 1.9.1
 
 ## 安装和运行程序
 
@@ -25,5 +25,5 @@ qiniu-plupload-example
 
 1. 本示例仅为了简单演示如何使用Plupload上传文件至七牛，并未引入服务端程序，所以在前端初始化了token值。实际生产环境中，token参数的构建应由服务端完成。
 
-2.如果您想了解更多七牛的上传策略，建议您仔细阅读七牛的官方文档
+2. 如果您想了解更多七牛的上传策略，建议您仔细阅读七牛的官方文档
 - [七牛官方文档-资源上传](http://docs.qiniu.com/api/v6/put.html#uploadToken)
