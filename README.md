@@ -17,7 +17,7 @@
 1. 获取源代码：
     `git clone git@github.com:qiniudemo/qiniu-plupload-example.git`
 
-2. 编辑 `qiniu.js` 文件，修改其中字段 `multipart_params.token` 为自己的uploadToken值(Line 61)。uploadToken可以通过访问[http://qtestbucket.qiniudn.com/demo/index.html) 获取生成。
+2. 编辑 `qiniu.js` 文件，修改其中字段 `multipart_params.token` 为自己的uploadToken值(Line 61)。uploadToken可以通过访问[http://qtestbucket.qiniudn.com/demo/index.html] 获取生成。
 
 3. 用任何的服务端语言启动网站，选择上传的文件后即可自动向对应的七牛空间上传文件。
 
