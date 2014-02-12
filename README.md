@@ -27,4 +27,4 @@
 
 2. 如果您想了解更多七牛的上传策略，建议您仔细阅读七牛的官方文档 - [七牛官方文档-资源上传](http://docs.qiniu.com/api/v6/put.html#uploadToken)
 
-3. 通过[七牛Plupload上传Demo](http://plupload-demo.u.qiniudn.com/)上传文件后，可以通过访问  'http://qiniu-plupload-example.u.qiniudn.com/' + 文件名 获取上传的资源
+3. 通过[七牛Plupload上传Demo](http://plupload-demo.u.qiniudn.com/)上传文件后，可以通过访问  'http://qiniu-plupload-example.u.qiniudn.com/' + key (key正常情况下为文件名） 获取上传的资源
