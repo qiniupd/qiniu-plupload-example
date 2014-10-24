@@ -1,7 +1,6 @@
 # 七牛Plupload上传Demo
 
-**本demo开发时仅为演示、学习，更成熟的方案请参考另外一个官方推荐的[JS-SDK Repo](https://github.com/qiniupd/qiniu-js-sdk)。
-[JS-SDK 示例网站](http://jssdk.demo.qiniu.io/)**
+**本demo开发时仅为演示、学习，强烈建议直接使用更成熟的方案--官方推荐的[JS-SDK Repo](https://github.com/qiniupd/qiniu-js-sdk)，[JS-SDK 示例网站](http://jssdk.demo.qiniu.io/)**
 
 
 ##依赖
