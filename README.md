@@ -1,11 +1,9 @@
-七牛Plupload上传Demo
+# 七牛Plupload上传Demo
 
-======================
 本demo开发时仅为演示、学习，更成熟的方案请参考另外一个官方推荐的[JS-SDK Repo](https://github.com/qiniupd/qiniu-js-sdk)。
 [JS-SDK 示例网站](http://jssdk.demo.qiniu.io/)
 
 一个基于 [七牛云存储](http://www.qiniu.com/) 及[Plupload](http://www.plupload.com/) 开发的上传Demo。
-示例网站：[七牛Plupload上传Demo](http://plupload-demo.u.qiniudn.com/)
 
 ##依赖
 
@@ -28,4 +26,4 @@
 
 2. 如果您想了解更多七牛的上传策略，建议您仔细阅读七牛的官方文档 - [七牛官方文档-资源上传](http://docs.qiniu.com/api/v6/put.html#uploadToken)
 
-3. 通过[七牛Plupload上传Demo](http://plupload-demo.u.qiniudn.com/)上传文件后，可以通过访问  'http://qiniu-plupload-example.u.qiniudn.com/' + key (key正常情况下为文件名） 获取上传的资源
+3. 通过七牛Plupload上传Demo上传文件后，可以通过访问  'http://qiniu-plupload-example.u.qiniudn.com/' + key (key正常情况下为文件名） 获取上传的资源
